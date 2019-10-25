@@ -1,0 +1,10 @@
+When I try to remove some feature of columns,I use drop.function as bellow:
+
+df.drop(columns=['the label of column i want to remove'])
+
+and then I print the result, but this dataframe does not change.
+
+The corrcet function is :
+df = df.drop(columns=['the label of column i want to remove'])
+
+and then it works!!!!!!!
